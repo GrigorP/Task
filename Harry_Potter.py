@@ -37,6 +37,6 @@ class harry_potter:
         else:
             print("You lose")
 
-magic = harry_potter("Avada Kedavra", "Crucio", "imperio", ["imperio", "crucio", "imperio"])
+magic = harry_potter("Avada Kedavra", "Crucio", "imperio", ["Avada Kedavra", "crucio", "imperio"])
 
 magic.winner()
