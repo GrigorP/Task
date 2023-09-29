@@ -2,7 +2,7 @@ from random import choice
 
 class harry_potter:
     def __init__(self, first: str, second: str, third: str, Lord_Voldermord):
-        self.all = [first.lower(), second.lower, third.lower]
+        self.all = [first.lower(), second.lower(), third.lower()]
         self.Lord_Voldermord = Lord_Voldermord
 
     def winner(self):
