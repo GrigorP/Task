@@ -6,9 +6,6 @@ class name_in_nums:
         self.nums = nums
     
     def name_in_num(self):
-        items =  dict(self.nums.items())
-        # keys = []
-        # values = []
         name_in_numbers = 0 
         for i in self.name:
             for key, value in self.nums.items():
@@ -32,7 +29,7 @@ name_num_dict = {
     9 : ["i", "r"]
 }
 
-new_name =  name_in_nums("Grigor".lower(), name_num_dict)
+new_name =  name_in_nums("grigor".lower(), name_num_dict)
 
 print(new_name.name_in_num())      
 
